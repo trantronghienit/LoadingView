@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.ldoublem.loadingView.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVCircularCD
+                        android:id="@+id/lv_circularCD"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVCircularRing
+                        android:id="@+id/lv_circularring"
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVCircular
+                        android:id="@+id/lv_circular"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVFinePoiStar
+                        android:id="@+id/lv_finePoiStar"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVCircularSmile
+                        android:id="@+id/lv_circularSmile"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVGears
+                        android:id="@+id/lv_gears"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVGearsTwo
+                        android:id="@+id/lv_gears_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:onClick="startAnim"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVWifi
+                        android:layout_width="50dp"
+                        android:onClick="startAnim"
+                        android:id="@+id/lv_wifi"
+                        android:layout_height="50dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVCircularJump
+                        android:id="@+id/lv_circularJump"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVCircularZoom
+                        android:id="@+id/lv_circularZoom"
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVPlayBall
+                        android:id="@+id/lv_playball"
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVNews
+                        android:layout_width="35dp"
+                        android:onClick="startAnim"
+                        android:id="@+id/lv_news"
+                        android:layout_height="35dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVChromeLogo
+                        android:id="@+id/lv_chromeLogo"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVBattery
+                        android:id="@+id/lv_battery"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <com.ldoublem.loadingView.view.LVBlock
+                        android:layout_width="100dp"
+                        android:onClick="startAnim"
+                        android:id="@+id/lv_block"
+                        android:layout_height="100dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVLineWithText
+                        android:id="@+id/lv_linetext"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    >
+
+                    <com.ldoublem.loadingView.view.LVEatBeans
+                        android:id="@+id/lv_eatBeans"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="startAnimAll"
+        android:text="start all"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="stopAnim"
+        android:text="stop"/>
+
+
+</RelativeLayout>
